@@ -9,10 +9,10 @@ import { Transact } from "./Pages/Transact";
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <Navigate to="/gochain/home" replace />,
+    element: <Navigate to="/gochain2/home" replace />,
   },
   {
-    path: "/gochain/",
+    path: "/gochain2/",
     element: <Layout />,
     errorElement: <NotFound />,
     children: [
